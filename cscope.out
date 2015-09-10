@@ -1,0 +1,1213 @@
+cscope 15 /nfs/ug/homes-1/z/zenghanq/ece344/os161               0000005996
+	@dumbvm.c
+
+1 
+	~<ty³s.h
+>
+
+2 
+	~<k”n/”ºo.h
+>
+
+3 
+	~<lib.h
+>
+
+4 
+	~<th»ad.h
+>
+
+5 
+	~<cu¹h»ad.h
+>
+
+6 
+	~<addr¥aû.h
+>
+
+7 
+	~<vm.h
+>
+
+8 
+	~<machše/¥l.h
+>
+
+9 
+	~<machše/Žb.h
+>
+
+19 
+	#DUMBVM_STACKPAGES
+ 12
+
+	)
+
+22 
+	$vm_boÙ¡¿p
+()
+
+25 
+	}
+}
+
+28 
+·ddr_t
+
+
+29 
+	$g‘µages
+(
+Åages
+)
+
+31 
+¥l
+;
+
+32 
+·ddr_t
+ 
+addr
+;
+
+34 
+¥l
+ = 
+	`¥lhigh
+();
+
+36 
+addr
+ = 
+	`¿m_¡—lmem
+(
+Åages
+);
+
+38 
+	`¥lx
+(
+¥l
+);
+
+39  
+addr
+;
+
+40 
+	}
+}
+
+43 
+vaddr_t
+
+
+44 
+	$®loc_k·ges
+(
+Åages
+)
+
+46 
+·ddr_t
+ 
+·
+;
+
+47 
+·
+ = 
+	`g‘µages
+(
+Åages
+);
+
+48 ià(
+·
+==0) {
+
+54  
+	`PADDR_TO_KVADDR
+(
+·
+);
+
+55 
+	}
+}
+
+58 
+	$ä“_k·ges
+(
+vaddr_t
+ 
+addr
+)
+
+62 ()
+addr
+;
+
+63 
+	}
+}
+
+66 
+	$vm_çuÉ
+(
+çuÉty³
+, 
+vaddr_t
+ 
+çuÉadd»ss
+)
+
+68 
+vaddr_t
+ 
+vba£1
+, 
+vtÝ1
+, 
+vba£2
+, 
+vtÝ2
+, 
+¡ackba£
+, 
+¡acktÝ
+;
+
+69 
+·ddr_t
+ 
+·ddr
+;
+
+70 
+i
+;
+
+71 
+u_št32_t
+ 
+ehi
+, 
+–o
+;
+
+72 
+addr¥aû
+ *
+as
+;
+
+73 
+¥l
+;
+
+75 
+¥l
+ = 
+	`¥lhigh
+();
+
+77 
+çuÉadd»ss
+ &ð
+PAGE_FRAME
+;
+
+79 
+	`DEBUG
+(
+DB_VM
+, "dumbvm: fauÉ: 0x%x\n", 
+çuÉadd»ss
+);
+
+81 
+çuÉty³
+) {
+
+82 
+VM_FAULT_READONLY
+:
+
+84 
+	`·nic
+("dumbvm: got VM_FAULT_READONLY\n");
+
+85 
+VM_FAULT_READ
+:
+
+86 
+VM_FAULT_WRITE
+:
+
+89 
+	`¥lx
+(
+¥l
+);
+
+90  
+EINVAL
+;
+
+93 
+as
+ = 
+cu¹h»ad
+->
+t_vm¥aû
+;
+
+94 ià(
+as
+ =ð
+NULL
+) {
+
+100  
+EFAULT
+;
+
+104 
+	`as£¹
+(
+as
+->
+as_vba£1
+ != 0);
+
+105 
+	`as£¹
+(
+as
+->
+as_pba£1
+ != 0);
+
+106 
+	`as£¹
+(
+as
+->
+as_Åages1
+ != 0);
+
+107 
+	`as£¹
+(
+as
+->
+as_vba£2
+ != 0);
+
+108 
+	`as£¹
+(
+as
+->
+as_pba£2
+ != 0);
+
+109 
+	`as£¹
+(
+as
+->
+as_Åages2
+ != 0);
+
+110 
+	`as£¹
+(
+as
+->
+as_¡ackpba£
+ != 0);
+
+111 
+	`as£¹
+((
+as
+->
+as_vba£1
+ & 
+PAGE_FRAME
+) ==‡s->as_vbase1);
+
+112 
+	`as£¹
+((
+as
+->
+as_pba£1
+ & 
+PAGE_FRAME
+) ==‡s->as_pbase1);
+
+113 
+	`as£¹
+((
+as
+->
+as_vba£2
+ & 
+PAGE_FRAME
+) ==‡s->as_vbase2);
+
+114 
+	`as£¹
+((
+as
+->
+as_pba£2
+ & 
+PAGE_FRAME
+) ==‡s->as_pbase2);
+
+115 
+	`as£¹
+((
+as
+->
+as_¡ackpba£
+ & 
+PAGE_FRAME
+) ==‡s->as_stackpbase);
+
+117 
+vba£1
+ = 
+as
+->
+as_vba£1
+;
+
+118 
+vtÝ1
+ = 
+vba£1
+ + 
+as
+->
+as_Åages1
+ * 
+PAGE_SIZE
+;
+
+119 
+vba£2
+ = 
+as
+->
+as_vba£2
+;
+
+120 
+vtÝ2
+ = 
+vba£2
+ + 
+as
+->
+as_Åages2
+ * 
+PAGE_SIZE
+;
+
+121 
+¡ackba£
+ = 
+USERSTACK
+ - 
+DUMBVM_STACKPAGES
+ * 
+PAGE_SIZE
+;
+
+122 
+¡acktÝ
+ = 
+USERSTACK
+;
+
+124 ià(
+çuÉadd»ss
+ >ð
+vba£1
+ && fauÉadd»s < 
+vtÝ1
+) {
+
+125 
+·ddr
+ = (
+çuÉadd»ss
+ - 
+vba£1
+è+ 
+as
+->
+as_pba£1
+;
+
+127 ià(
+çuÉadd»ss
+ >ð
+vba£2
+ && fauÉadd»s < 
+vtÝ2
+) {
+
+128 
+·ddr
+ = (
+çuÉadd»ss
+ - 
+vba£2
+è+ 
+as
+->
+as_pba£2
+;
+
+130 ià(
+çuÉadd»ss
+ >ð
+¡ackba£
+ && fauÉadd»s < 
+¡acktÝ
+) {
+
+131 
+·ddr
+ = (
+çuÉadd»ss
+ - 
+¡ackba£
+è+ 
+as
+->
+as_¡ackpba£
+;
+
+134 
+	`¥lx
+(
+¥l
+);
+
+135  
+EFAULT
+;
+
+139 
+	`as£¹
+((
+·ddr
+ & 
+PAGE_FRAME
+)==paddr);
+
+141 
+i
+=0; i<
+NUM_TLB
+; i++) {
+
+142 
+	`TLB_R—d
+(&
+ehi
+, &
+–o
+, 
+i
+);
+
+143 ià(
+–o
+ & 
+TLBLO_VALID
+) {
+
+146 
+ehi
+ = 
+çuÉadd»ss
+;
+
+147 
+–o
+ = 
+·ddr
+ | 
+TLBLO_DIRTY
+ | 
+TLBLO_VALID
+;
+
+148 
+	`DEBUG
+(
+DB_VM
+, "dumbvm: 0x%x -> 0x%x\n", 
+çuÉadd»ss
+, 
+·ddr
+);
+
+149 
+	`TLB_Wr™e
+(
+ehi
+, 
+–o
+, 
+i
+);
+
+150 
+	`¥lx
+(
+¥l
+);
+
+154 
+	`k´štf
+("dumbvm: Ran out of TLBƒntries - cannot handle…age fault\n");
+
+155 
+	`¥lx
+(
+¥l
+);
+
+156  
+EFAULT
+;
+
+157 
+	}
+}
+
+159 
+addr¥aû
+ *
+
+160 
+	$as_ü—‹
+()
+
+162 
+addr¥aû
+ *
+as
+ = 
+	`km®loc
+((addrspace));
+
+163 ià(
+as
+==
+NULL
+) {
+
+164  
+NULL
+;
+
+167 
+as
+->
+as_vba£1
+ = 0;
+
+168 
+as
+->
+as_pba£1
+ = 0;
+
+169 
+as
+->
+as_Åages1
+ = 0;
+
+170 
+as
+->
+as_vba£2
+ = 0;
+
+171 
+as
+->
+as_pba£2
+ = 0;
+
+172 
+as
+->
+as_Åages2
+ = 0;
+
+173 
+as
+->
+as_¡ackpba£
+ = 0;
+
+175  
+as
+;
+
+176 
+	}
+}
+
+179 
+	$as_de¡roy
+(
+addr¥aû
+ *
+as
+)
+
+181 
+	`kä“
+(
+as
+);
+
+182 
+	}
+}
+
+185 
+	$as_aùiv©e
+(
+addr¥aû
+ *
+as
+)
+
+187 
+i
+, 
+¥l
+;
+
+189 ()
+as
+;
+
+191 
+¥l
+ = 
+	`¥lhigh
+();
+
+193 
+i
+=0; i<
+NUM_TLB
+; i++) {
+
+194 
+	`TLB_Wr™e
+(
+	`TLBHI_INVALID
+(
+i
+), 
+	`TLBLO_INVALID
+(), i);
+
+197 
+	`¥lx
+(
+¥l
+);
+
+198 
+	}
+}
+
+201 
+	$as_defše_»giÚ
+(
+addr¥aû
+ *
+as
+, 
+vaddr_t
+ 
+vaddr
+, 
+size_t
+ 
+sz
+,
+
+202 
+»adabË
+, 
+wr™—bË
+, 
+execubË
+)
+
+204 
+size_t
+ 
+Åages
+;
+
+207 
+sz
+ +ð
+vaddr
+ & ~(
+vaddr_t
+)
+PAGE_FRAME
+;
+
+208 
+vaddr
+ &ð
+PAGE_FRAME
+;
+
+211 
+sz
+ = (sz + 
+PAGE_SIZE
+ - 1è& 
+PAGE_FRAME
+;
+
+213 
+Åages
+ = 
+sz
+ / 
+PAGE_SIZE
+;
+
+216 ()
+»adabË
+;
+
+217 ()
+wr™—bË
+;
+
+218 ()
+execubË
+;
+
+225 ià(
+as
+->
+as_vba£1
+ == 0) {
+
+226 
+as
+->
+as_vba£1
+ = 
+vaddr
+;
+
+227 
+as
+->
+as_Åages1
+ = 
+Åages
+;
+
+231 ià(
+as
+->
+as_vba£2
+ == 0) {
+
+232 
+as
+->
+as_vba£2
+ = 
+vaddr
+;
+
+233 
+as
+->
+as_Åages2
+ = 
+Åages
+;
+
+240 
+	`k´štf
+("dumbvm: Warning:oo many„egions\n");
+
+241  
+EUNIMP
+;
+
+242 
+	}
+}
+
+245 
+	$as_´•¬e_lßd
+(
+addr¥aû
+ *
+as
+)
+
+247 
+	`as£¹
+(
+as
+->
+as_pba£1
+ == 0);
+
+248 
+	`as£¹
+(
+as
+->
+as_pba£2
+ == 0);
+
+249 
+	`as£¹
+(
+as
+->
+as_¡ackpba£
+ == 0);
+
+251 
+as
+->
+as_pba£1
+ = 
+	`g‘µages
+×s->
+as_Åages1
+);
+
+252 ià(
+as
+->
+as_pba£1
+ == 0) {
+
+253  
+ENOMEM
+;
+
+256 
+as
+->
+as_pba£2
+ = 
+	`g‘µages
+×s->
+as_Åages2
+);
+
+257 ià(
+as
+->
+as_pba£2
+ == 0) {
+
+258  
+ENOMEM
+;
+
+261 
+as
+->
+as_¡ackpba£
+ = 
+	`g‘µages
+(
+DUMBVM_STACKPAGES
+);
+
+262 ià(
+as
+->
+as_¡ackpba£
+ == 0) {
+
+263  
+ENOMEM
+;
+
+267 
+	}
+}
+
+270 
+	$as_com¶‘e_lßd
+(
+addr¥aû
+ *
+as
+)
+
+272 ()
+as
+;
+
+274 
+	}
+}
+
+277 
+	$as_defše_¡ack
+(
+addr¥aû
+ *
+as
+, 
+vaddr_t
+ *
+¡ack±r
+)
+
+279 
+	`as£¹
+(
+as
+->
+as_¡ackpba£
+ != 0);
+
+281 *
+¡ack±r
+ = 
+USERSTACK
+;
+
+283 
+	}
+}
+
+286 
+	$as_cÝy
+(
+addr¥aû
+ *
+Þd
+, addr¥aû **
+»t
+)
+
+288 
+addr¥aû
+ *
+Ãw
+;
+
+290 
+Ãw
+ = 
+	`as_ü—‹
+();
+
+291 ià(
+Ãw
+==
+NULL
+) {
+
+292  
+ENOMEM
+;
+
+295 
+Ãw
+->
+as_vba£1
+ = 
+Þd
+->as_vbase1;
+
+296 
+Ãw
+->
+as_Åages1
+ = 
+Þd
+->as_npages1;
+
+297 
+Ãw
+->
+as_vba£2
+ = 
+Þd
+->as_vbase2;
+
+298 
+Ãw
+->
+as_Åages2
+ = 
+Þd
+->as_npages2;
+
+300 ià(
+	`as_´•¬e_lßd
+(
+Ãw
+)) {
+
+301 
+	`as_de¡roy
+(
+Ãw
+);
+
+302  
+ENOMEM
+;
+
+305 
+	`as£¹
+(
+Ãw
+->
+as_pba£1
+ != 0);
+
+306 
+	`as£¹
+(
+Ãw
+->
+as_pba£2
+ != 0);
+
+307 
+	`as£¹
+(
+Ãw
+->
+as_¡ackpba£
+ != 0);
+
+309 
+	`memmove
+((*)
+	`PADDR_TO_KVADDR
+(
+Ãw
+->
+as_pba£1
+),
+
+310 (cÚ¡ *)
+	`PADDR_TO_KVADDR
+(
+Þd
+->
+as_pba£1
+),
+
+311 
+Þd
+->
+as_Åages1
+*
+PAGE_SIZE
+);
+
+313 
+	`memmove
+((*)
+	`PADDR_TO_KVADDR
+(
+Ãw
+->
+as_pba£2
+),
+
+314 (cÚ¡ *)
+	`PADDR_TO_KVADDR
+(
+Þd
+->
+as_pba£2
+),
+
+315 
+Þd
+->
+as_Åages2
+*
+PAGE_SIZE
+);
+
+317 
+	`memmove
+((*)
+	`PADDR_TO_KVADDR
+(
+Ãw
+->
+as_¡ackpba£
+),
+
+318 (cÚ¡ *)
+	`PADDR_TO_KVADDR
+(
+Þd
+->
+as_¡ackpba£
+),
+
+319 
+DUMBVM_STACKPAGES
+*
+PAGE_SIZE
+);
+
+321 *
+»t
+ = 
+Ãw
+;
+
+323 
+	}
+}
+
+	@
+1
+.
+1
+/usr/include
+1
+9
+dumbvm.c

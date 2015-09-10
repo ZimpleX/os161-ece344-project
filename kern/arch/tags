@@ -1,0 +1,270 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+AT	./mips/include/asmdefs.h	11;"	d
+CCA_CODE	./mips/include/specialreg.h	21;"	d
+CCA_CODESHIFT	./mips/include/specialreg.h	26;"	d
+CCA_COPN	./mips/include/specialreg.h	23;"	d
+CCA_IRQS	./mips/include/specialreg.h	22;"	d
+CCA_JD	./mips/include/specialreg.h	24;"	d
+CCA_UTLB	./mips/include/specialreg.h	20;"	d
+CHAR_BIT	./mips/include/types.h	51;"	d
+CIN_INDEX	./mips/include/specialreg.h	32;"	d
+CIN_INDEXSHIFT	./mips/include/specialreg.h	34;"	d
+CIN_P	./mips/include/specialreg.h	31;"	d
+CST_BEV	./mips/include/specialreg.h	15;"	d
+CST_IEc	./mips/include/specialreg.h	7;"	d
+CST_IEo	./mips/include/specialreg.h	11;"	d
+CST_IEp	./mips/include/specialreg.h	9;"	d
+CST_IRQMASK	./mips/include/specialreg.h	14;"	d
+CST_KUc	./mips/include/specialreg.h	8;"	d
+CST_KUo	./mips/include/specialreg.h	12;"	d
+CST_KUp	./mips/include/specialreg.h	10;"	d
+CST_MODEMASK	./mips/include/specialreg.h	13;"	d
+DUMBVM_STACKPAGES	./mips/mips/dumbvm.c	19;"	d	file:
+EM_MACHINE	./mips/include/vm.h	82;"	d
+EX_ADEL	./mips/include/trapframe.h	59;"	d
+EX_ADES	./mips/include/trapframe.h	60;"	d
+EX_BP	./mips/include/trapframe.h	64;"	d
+EX_CPU	./mips/include/trapframe.h	66;"	d
+EX_DBE	./mips/include/trapframe.h	62;"	d
+EX_IBE	./mips/include/trapframe.h	61;"	d
+EX_IRQ	./mips/include/trapframe.h	55;"	d
+EX_MOD	./mips/include/trapframe.h	56;"	d
+EX_OVF	./mips/include/trapframe.h	67;"	d
+EX_RI	./mips/include/trapframe.h	65;"	d
+EX_SYS	./mips/include/trapframe.h	63;"	d
+EX_TLBL	./mips/include/trapframe.h	57;"	d
+EX_TLBS	./mips/include/trapframe.h	58;"	d
+LAMEBUS_IRQ_BIT	./mips/mips/interrupt.c	15;"	d	file:
+LAMEBUS_NMI_BIT	./mips/mips/interrupt.c	16;"	d	file:
+LB_BASEADDR	./mips/include/bus.h	28;"	d
+MIPS_KSEG0	./mips/include/vm.h	20;"	d
+MIPS_KSEG1	./mips/include/vm.h	21;"	d
+MIPS_KSEG2	./mips/include/vm.h	22;"	d
+MIPS_KUSEG	./mips/include/vm.h	19;"	d
+NTRAPCODES	./mips/mips/trap.c	17;"	d	file:
+NULL	./mips/include/types.h	57;"	d
+NULL	./mips/include/types.h	58;"	d
+NUM_TLB	./mips/include/tlb.h	73;"	d
+PADDR_TO_KVADDR	./mips/include/vm.h	42;"	d
+PAGE_FRAME	./mips/include/vm.h	9;"	d
+PAGE_SIZE	./mips/include/vm.h	8;"	d
+SAME_STACK	./mips/include/pcb.h	17;"	d
+SPL_HIGH	./mips/include/spl.h	64;"	d
+STACK_MASK	./mips/include/pcb.h	14;"	d
+STACK_SIZE	./mips/include/pcb.h	11;"	d
+TLBHI_INVALID	./mips/include/tlb.h	66;"	d
+TLBHI_VPAGE	./mips/include/tlb.h	51;"	d
+TLBLO_DIRTY	./mips/include/tlb.h	57;"	d
+TLBLO_INVALID	./mips/include/tlb.h	67;"	d
+TLBLO_NOCACHE	./mips/include/tlb.h	56;"	d
+TLBLO_PPAGE	./mips/include/tlb.h	55;"	d
+TLBLO_VALID	./mips/include/tlb.h	58;"	d
+TLB_Probe	./mips/mips/tlb_mips1.S	/^TLB_Probe:$/;"	l
+TLB_Random	./mips/mips/tlb_mips1.S	/^TLB_Random:$/;"	l
+TLB_Read	./mips/mips/tlb_mips1.S	/^TLB_Read:$/;"	l
+TLB_Reset	./mips/mips/tlb_mips1.S	/^TLB_Reset:$/;"	l
+TLB_Write	./mips/mips/tlb_mips1.S	/^TLB_Write:$/;"	l
+USERSTACK	./mips/include/vm.h	58;"	d
+USERTOP	./mips/include/vm.h	48;"	d
+_BIG_ENDIAN	./mips/include/types.h	66;"	d
+_LITTLE_ENDIAN	./mips/include/types.h	65;"	d
+_MACHINE_PCB_H_	./mips/include/pcb.h	6;"	d
+_MACHINE_SPL_H_	./mips/include/spl.h	2;"	d
+_MACHINE_TLB_H_	./mips/include/tlb.h	2;"	d
+_MIPS_ASMDEFS_H_	./mips/include/asmdefs.h	5;"	d
+_MIPS_BUS_H_	./mips/include/bus.h	2;"	d
+_MIPS_KTYPES_H_	./mips/include/ktypes.h	2;"	d
+_MIPS_SETJMP_H_	./mips/include/setjmp.h	2;"	d
+_MIPS_SPECIALREG_H_	./mips/include/specialreg.h	2;"	d
+_MIPS_SWITCHFRAME_H_	./mips/include/switchframe.h	2;"	d
+_MIPS_TRAPFRAME_H_	./mips/include/trapframe.h	2;"	d
+_MIPS_TYPES_H_	./mips/include/types.h	2;"	d
+_MIPS_VM_H_	./mips/include/vm.h	2;"	d
+__JB_REGS	./mips/include/setjmp.h	8;"	d
+__start	./mips/mips/start.S	/^__start:$/;"	l
+a0	./mips/include/asmdefs.h	14;"	d
+a1	./mips/include/asmdefs.h	15;"	d
+a2	./mips/include/asmdefs.h	16;"	d
+a3	./mips/include/asmdefs.h	17;"	d
+alloc_kpages	./mips/mips/dumbvm.c	/^alloc_kpages(int npages)$/;"	f
+as_activate	./mips/mips/dumbvm.c	/^as_activate(struct addrspace *as)$/;"	f
+as_complete_load	./mips/mips/dumbvm.c	/^as_complete_load(struct addrspace *as)$/;"	f
+as_copy	./mips/mips/dumbvm.c	/^as_copy(struct addrspace *old, struct addrspace **ret)$/;"	f
+as_create	./mips/mips/dumbvm.c	/^as_create(void)$/;"	f
+as_define_region	./mips/mips/dumbvm.c	/^as_define_region(struct addrspace *as, vaddr_t vaddr, size_t sz,$/;"	f
+as_define_stack	./mips/mips/dumbvm.c	/^as_define_stack(struct addrspace *as, vaddr_t *stackptr)$/;"	f
+as_destroy	./mips/mips/dumbvm.c	/^as_destroy(struct addrspace *as)$/;"	f
+as_prepare_load	./mips/mips/dumbvm.c	/^as_prepare_load(struct addrspace *as)$/;"	f
+asm_usermode	./mips/mips/exception.S	/^asm_usermode:$/;"	l
+bus_map_area	./mips/include/bus.h	20;"	d
+bus_read_register	./mips/include/bus.h	17;"	d
+bus_write_register	./mips/include/bus.h	14;"	d
+c0_cause	./mips/include/asmdefs.h	57;"	d
+c0_context	./mips/include/asmdefs.h	49;"	d
+c0_entryhi	./mips/include/asmdefs.h	54;"	d
+c0_entrylo	./mips/include/asmdefs.h	46;"	d
+c0_epc	./mips/include/asmdefs.h	58;"	d
+c0_index	./mips/include/asmdefs.h	44;"	d
+c0_prid	./mips/include/asmdefs.h	59;"	d
+c0_random	./mips/include/asmdefs.h	45;"	d
+c0_status	./mips/include/asmdefs.h	56;"	d
+c0_vaddr	./mips/include/asmdefs.h	52;"	d
+common_exception	./mips/mips/exception.S	/^common_exception:	$/;"	l
+cpu_halt	./mips/mips/spl.c	/^cpu_halt(void)$/;"	f
+cpu_idle	./mips/mips/spl.c	/^cpu_idle(void)$/;"	f
+curkstack	./mips/mips/pcb.c	/^u_int32_t curkstack;	\/* curthread's kernel stack, for use on kernel entry *\/$/;"	v
+curspl	./mips/mips/spl.c	/^int curspl = SPL_HIGH;$/;"	v
+exception	./mips/mips/exception.S	/^exception:$/;"	l
+exception_end	./mips/mips/exception.S	/^exception_end:$/;"	l
+exception_return	./mips/mips/exception.S	/^exception_return:$/;"	l
+firstfree	./mips/mips/ram.c	/^u_int32_t firstfree;   \/* first free virtual address; set by start.S *\/$/;"	v
+firstpaddr	./mips/mips/ram.c	/^static u_int32_t firstpaddr;  \/* address of first free physical page *\/$/;"	v	file:
+free_kpages	./mips/mips/dumbvm.c	/^free_kpages(vaddr_t addr)$/;"	f
+get_status	./mips/mips/spl.c	18;"	d	file:
+getppages	./mips/mips/dumbvm.c	/^getppages(unsigned long npages)$/;"	f	file:
+gp	./mips/include/asmdefs.h	38;"	d
+in_interrupt	./mips/mips/interrupt.c	/^int in_interrupt;$/;"	v
+int16_t	./mips/include/types.h	/^typedef short     int16_t;		\/* 16-bit signed integer *\/$/;"	t
+int32_t	./mips/include/types.h	/^typedef int       int32_t;		\/* 32-bit signed integer *\/$/;"	t
+int64_t	./mips/include/types.h	/^typedef long long int64_t;		\/* 64-bit signed integer *\/$/;"	t
+int8_t	./mips/include/types.h	/^typedef char      int8_t;		\/* 8-bit signed integer *\/$/;"	t
+interrupts_off	./mips/mips/spl.c	/^interrupts_off(void)$/;"	f	file:
+interrupts_on	./mips/mips/spl.c	/^interrupts_on(void)$/;"	f	file:
+interrupts_onoff	./mips/mips/spl.c	/^interrupts_onoff(void)$/;"	f	file:
+intptr_t	./mips/include/types.h	/^typedef long intptr_t;			\/* Signed pointer-sized integer *\/$/;"	t
+jmp_buf	./mips/include/setjmp.h	/^typedef u_int32_t jmp_buf[__JB_REGS];$/;"	t
+k0	./mips/include/asmdefs.h	36;"	d
+k1	./mips/include/asmdefs.h	37;"	d
+kill_curthread	./mips/mips/trap.c	/^kill_curthread(u_int32_t epc, unsigned code, u_int32_t vaddr)$/;"	f	file:
+lamebus	./mips/mips/lamebus_mips.c	/^static struct lamebus_softc *lamebus;$/;"	v	typeref:struct:lamebus_softc	file:
+lamebus_map_area	./mips/mips/lamebus_mips.c	/^lamebus_map_area(struct lamebus_softc *bus, int slot, u_int32_t offset)$/;"	f
+lamebus_read_register	./mips/mips/lamebus_mips.c	/^lamebus_read_register(struct lamebus_softc *bus, int slot, u_int32_t offset)$/;"	f
+lamebus_write_register	./mips/mips/lamebus_mips.c	/^lamebus_write_register(struct lamebus_softc *bus, int slot,$/;"	f
+lastpaddr	./mips/mips/ram.c	/^static u_int32_t lastpaddr;   \/* one past end of last free physical page *\/$/;"	v	file:
+machdep_dev_bootstrap	./mips/mips/lamebus_mips.c	/^machdep_dev_bootstrap(void)$/;"	f
+md_forkentry	./mips/mips/syscall.c	/^md_forkentry(struct trapframe *tf)$/;"	f
+md_halt	./mips/mips/lamebus_mips.c	/^md_halt(void)$/;"	f
+md_initpcb	./mips/mips/pcb.c	/^md_initpcb(struct pcb *pcb, char *stack, $/;"	f
+md_initpcb0	./mips/mips/pcb.c	/^md_initpcb0(struct pcb *pcb)$/;"	f
+md_panic	./mips/mips/lamebus_mips.c	/^md_panic(void)$/;"	f
+md_poweroff	./mips/mips/lamebus_mips.c	/^md_poweroff(void)$/;"	f
+md_reboot	./mips/mips/lamebus_mips.c	/^md_reboot(void)$/;"	f
+md_switch	./mips/mips/pcb.c	/^md_switch(struct pcb *old, struct pcb *nu)$/;"	f
+md_usermode	./mips/mips/trap.c	/^md_usermode(int argc, userptr_t argv, vaddr_t stack, vaddr_t entry)$/;"	f
+mips_flushicache	./mips/mips/cache_mips1.S	/^mips_flushicache:$/;"	l
+mips_interrupt	./mips/mips/interrupt.c	/^mips_interrupt(u_int32_t cause)$/;"	f
+mips_lamebus_interrupt	./mips/mips/lamebus_mips.c	/^mips_lamebus_interrupt(void)$/;"	f
+mips_ramsize	./mips/mips/lamebus_mips.c	/^mips_ramsize(void)$/;"	f
+mips_switch	./mips/mips/switch.S	/^mips_switch:$/;"	l
+mips_syscall	./mips/mips/syscall.c	/^mips_syscall(struct trapframe *tf)$/;"	f
+mips_threadstart	./mips/mips/threadstart.S	/^mips_threadstart:$/;"	l
+mips_trap	./mips/mips/trap.c	/^mips_trap(struct trapframe *tf)$/;"	f
+mips_usermode	./mips/mips/trap.c	/^mips_usermode(struct trapframe *tf)$/;"	f
+paddr_t	./mips/include/ktypes.h	/^typedef u_int32_t paddr_t;   \/* type for a physical address *\/$/;"	t
+panicstr	./mips/mips/start.S	/^panicstr:$/;"	l
+pcb	./mips/include/pcb.h	/^struct pcb {$/;"	s
+pcb_badfaultfunc	./mips/include/pcb.h	/^	pcb_faultfunc pcb_badfaultfunc; \/\/ recovery for fatal kernel traps$/;"	m	struct:pcb
+pcb_copyjmp	./mips/include/pcb.h	/^	jmp_buf pcb_copyjmp;            \/\/ jump area used by copyin\/out etc.$/;"	m	struct:pcb
+pcb_faultfunc	./mips/include/pcb.h	/^typedef void (*pcb_faultfunc)(void);$/;"	t
+pcb_ininterrupt	./mips/include/pcb.h	/^	u_int32_t pcb_ininterrupt;  \/\/ are we in an interrupt handler?$/;"	m	struct:pcb
+pcb_kstack	./mips/include/pcb.h	/^	u_int32_t pcb_kstack;	    \/\/ stack to load on entry to kernel$/;"	m	struct:pcb
+pcb_switchstack	./mips/include/pcb.h	/^	u_int32_t pcb_switchstack;  \/\/ stack saved during context switch$/;"	m	struct:pcb
+ra	./mips/include/asmdefs.h	41;"	d
+ram_bootstrap	./mips/mips/ram.c	/^ram_bootstrap(void)$/;"	f
+ram_getsize	./mips/mips/ram.c	/^ram_getsize(u_int32_t *lo, u_int32_t *hi)$/;"	f
+ram_stealmem	./mips/mips/ram.c	/^ram_stealmem(unsigned long npages)$/;"	f
+s0	./mips/include/asmdefs.h	26;"	d
+s1	./mips/include/asmdefs.h	27;"	d
+s2	./mips/include/asmdefs.h	28;"	d
+s3	./mips/include/asmdefs.h	29;"	d
+s4	./mips/include/asmdefs.h	30;"	d
+s5	./mips/include/asmdefs.h	31;"	d
+s6	./mips/include/asmdefs.h	32;"	d
+s7	./mips/include/asmdefs.h	33;"	d
+s8	./mips/include/asmdefs.h	40;"	d
+set_status	./mips/mips/spl.c	19;"	d	file:
+sf_gp	./mips/include/switchframe.h	/^	u_int32_t sf_gp;$/;"	m	struct:switchframe
+sf_ra	./mips/include/switchframe.h	/^	u_int32_t sf_ra;$/;"	m	struct:switchframe
+sf_s0	./mips/include/switchframe.h	/^	u_int32_t sf_s0;$/;"	m	struct:switchframe
+sf_s1	./mips/include/switchframe.h	/^	u_int32_t sf_s1;$/;"	m	struct:switchframe
+sf_s2	./mips/include/switchframe.h	/^	u_int32_t sf_s2;$/;"	m	struct:switchframe
+sf_s3	./mips/include/switchframe.h	/^	u_int32_t sf_s3;$/;"	m	struct:switchframe
+sf_s4	./mips/include/switchframe.h	/^	u_int32_t sf_s4;$/;"	m	struct:switchframe
+sf_s5	./mips/include/switchframe.h	/^	u_int32_t sf_s5;$/;"	m	struct:switchframe
+sf_s6	./mips/include/switchframe.h	/^	u_int32_t sf_s6;$/;"	m	struct:switchframe
+sf_s7	./mips/include/switchframe.h	/^	u_int32_t sf_s7;$/;"	m	struct:switchframe
+sf_s8	./mips/include/switchframe.h	/^	u_int32_t sf_s8;$/;"	m	struct:switchframe
+size_t	./mips/include/types.h	/^typedef unsigned long size_t;		\/* Size of a memory region *\/$/;"	t
+size_t	./mips/include/types.h	/^typedef unsigned size_t;		\/* Size of a memory region *\/$/;"	t
+sp	./mips/include/asmdefs.h	39;"	d
+spl0	./mips/mips/spl.c	/^spl0(void)$/;"	f
+splhigh	./mips/mips/spl.c	/^splhigh(void)$/;"	f
+splx	./mips/mips/spl.c	/^splx(int newspl)$/;"	f
+switchframe	./mips/include/switchframe.h	/^struct switchframe {$/;"	s
+t0	./mips/include/asmdefs.h	18;"	d
+t1	./mips/include/asmdefs.h	19;"	d
+t2	./mips/include/asmdefs.h	20;"	d
+t3	./mips/include/asmdefs.h	21;"	d
+t4	./mips/include/asmdefs.h	22;"	d
+t5	./mips/include/asmdefs.h	23;"	d
+t6	./mips/include/asmdefs.h	24;"	d
+t7	./mips/include/asmdefs.h	25;"	d
+t8	./mips/include/asmdefs.h	34;"	d
+t9	./mips/include/asmdefs.h	35;"	d
+tf_a0	./mips/include/trapframe.h	/^	u_int32_t tf_a0;$/;"	m	struct:trapframe
+tf_a1	./mips/include/trapframe.h	/^	u_int32_t tf_a1;$/;"	m	struct:trapframe
+tf_a2	./mips/include/trapframe.h	/^	u_int32_t tf_a2;$/;"	m	struct:trapframe
+tf_a3	./mips/include/trapframe.h	/^	u_int32_t tf_a3;$/;"	m	struct:trapframe
+tf_at	./mips/include/trapframe.h	/^	u_int32_t tf_at;	\/* Saved register 1 (AT) *\/$/;"	m	struct:trapframe
+tf_cause	./mips/include/trapframe.h	/^	u_int32_t tf_cause;	\/* coprocessor 0 cause register *\/$/;"	m	struct:trapframe
+tf_epc	./mips/include/trapframe.h	/^	u_int32_t tf_epc;	\/* coprocessor 0 epc register *\/$/;"	m	struct:trapframe
+tf_gp	./mips/include/trapframe.h	/^	u_int32_t tf_gp;$/;"	m	struct:trapframe
+tf_hi	./mips/include/trapframe.h	/^	u_int32_t tf_hi;$/;"	m	struct:trapframe
+tf_k0	./mips/include/trapframe.h	/^	u_int32_t tf_k0;	\/* dummy (see exception.S comments) *\/$/;"	m	struct:trapframe
+tf_k1	./mips/include/trapframe.h	/^	u_int32_t tf_k1;	\/* dummy *\/$/;"	m	struct:trapframe
+tf_lo	./mips/include/trapframe.h	/^	u_int32_t tf_lo;$/;"	m	struct:trapframe
+tf_ra	./mips/include/trapframe.h	/^	u_int32_t tf_ra;	\/* Saved register 31 *\/$/;"	m	struct:trapframe
+tf_s0	./mips/include/trapframe.h	/^	u_int32_t tf_s0;$/;"	m	struct:trapframe
+tf_s1	./mips/include/trapframe.h	/^	u_int32_t tf_s1;$/;"	m	struct:trapframe
+tf_s2	./mips/include/trapframe.h	/^	u_int32_t tf_s2;$/;"	m	struct:trapframe
+tf_s3	./mips/include/trapframe.h	/^	u_int32_t tf_s3;$/;"	m	struct:trapframe
+tf_s4	./mips/include/trapframe.h	/^	u_int32_t tf_s4;$/;"	m	struct:trapframe
+tf_s5	./mips/include/trapframe.h	/^	u_int32_t tf_s5;$/;"	m	struct:trapframe
+tf_s6	./mips/include/trapframe.h	/^	u_int32_t tf_s6;$/;"	m	struct:trapframe
+tf_s7	./mips/include/trapframe.h	/^	u_int32_t tf_s7;$/;"	m	struct:trapframe
+tf_s8	./mips/include/trapframe.h	/^	u_int32_t tf_s8;$/;"	m	struct:trapframe
+tf_sp	./mips/include/trapframe.h	/^	u_int32_t tf_sp;$/;"	m	struct:trapframe
+tf_status	./mips/include/trapframe.h	/^	u_int32_t tf_status;	\/* coprocessor 0 status register *\/$/;"	m	struct:trapframe
+tf_t0	./mips/include/trapframe.h	/^	u_int32_t tf_t0;$/;"	m	struct:trapframe
+tf_t1	./mips/include/trapframe.h	/^	u_int32_t tf_t1;$/;"	m	struct:trapframe
+tf_t2	./mips/include/trapframe.h	/^	u_int32_t tf_t2;$/;"	m	struct:trapframe
+tf_t3	./mips/include/trapframe.h	/^	u_int32_t tf_t3;$/;"	m	struct:trapframe
+tf_t4	./mips/include/trapframe.h	/^	u_int32_t tf_t4;$/;"	m	struct:trapframe
+tf_t5	./mips/include/trapframe.h	/^	u_int32_t tf_t5;$/;"	m	struct:trapframe
+tf_t6	./mips/include/trapframe.h	/^	u_int32_t tf_t6;$/;"	m	struct:trapframe
+tf_t7	./mips/include/trapframe.h	/^	u_int32_t tf_t7;$/;"	m	struct:trapframe
+tf_t8	./mips/include/trapframe.h	/^	u_int32_t tf_t8;$/;"	m	struct:trapframe
+tf_t9	./mips/include/trapframe.h	/^	u_int32_t tf_t9;$/;"	m	struct:trapframe
+tf_v0	./mips/include/trapframe.h	/^	u_int32_t tf_v0;	\/* Saved register 2 (v0) *\/$/;"	m	struct:trapframe
+tf_v1	./mips/include/trapframe.h	/^	u_int32_t tf_v1;	\/* etc. *\/$/;"	m	struct:trapframe
+tf_vaddr	./mips/include/trapframe.h	/^	u_int32_t tf_vaddr;	\/* coprocessor 0 vaddr register *\/$/;"	m	struct:trapframe
+trapcodenames	./mips/mips/trap.c	/^static const char *const trapcodenames[NTRAPCODES] = {$/;"	v	file:
+trapframe	./mips/include/trapframe.h	/^struct trapframe {$/;"	s
+u_int16_t	./mips/include/types.h	/^typedef unsigned short     u_int16_t;	\/* 16-bit unsigned integer *\/$/;"	t
+u_int32_t	./mips/include/types.h	/^typedef unsigned int       u_int32_t;	\/* 32-bit unsigned integer *\/$/;"	t
+u_int64_t	./mips/include/types.h	/^typedef unsigned long long u_int64_t;	\/* 64-bit unsigned integer *\/$/;"	t
+u_int8_t	./mips/include/types.h	/^typedef unsigned char      u_int8_t;	\/* 8-bit unsigned integer *\/$/;"	t
+uintptr_t	./mips/include/types.h	/^typedef unsigned long uintptr_t;	\/* Unsigned pointer-sized integer *\/$/;"	t
+utlb_exception	./mips/mips/exception.S	/^utlb_exception:$/;"	l
+utlb_exception_end	./mips/mips/exception.S	/^utlb_exception_end:$/;"	l
+v0	./mips/include/asmdefs.h	12;"	d
+v1	./mips/include/asmdefs.h	13;"	d
+vaddr_t	./mips/include/ktypes.h	/^typedef u_int32_t vaddr_t;   \/* type for a virtual address *\/$/;"	t
+vm_bootstrap	./mips/mips/dumbvm.c	/^vm_bootstrap(void)$/;"	f
+vm_fault	./mips/mips/dumbvm.c	/^vm_fault(int faulttype, vaddr_t faultaddress)$/;"	f
+z0	./mips/include/asmdefs.h	10;"	d
